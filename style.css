@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.max{
+     max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+     
+   height: 58px;
+
+   
+  
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    
+}
+nav ul li{
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.common-button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #1D4ED8;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.common-button:hover{
+  padding: 10px 30px;
+  border-radius: 10px;
+
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+
+  background-color: rgb(1, 25, 133);
+}
+
+
+
+
+/*  header section  */
+header{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent),
+    linear-gradient(to left, rgba(221, 216, 216, 0.774), transparent),
+    linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent),
+    url("./assets/banner.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header p{
+    width: 496px;
+   text-align: center;
+   color: white;
+   padding-bottom: 200px;
+   line-height: 1.8rem;
+  
+}
+
+header h1{
+    color: white;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.button-2{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+
+
+/* Speakers Section */
+
+
+
+.section-1h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+        
+
+}
+
+
+
+/* Two Cards Per Row */
+
+.st-row,
+.nd-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Card */
+
+.percard{
+    width: 550px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    border: 2px solid rgba(41, 34, 31, 0.13);
+}
+
+/* Image */
+
+.percard img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Text */
+
+.percard span{
+    display: block;
+    color: #2563EB;
+    font-weight: 500;
+    margin: 10px 20px 5px;
+    font-size: 11px;
+}
+
+.percard h1{
+    font-size: 20px;
+    margin: 0 20px 5px;
+    font-weight: 500;
+    color: #0D1B2A;
+}
+
+.percard p{
+    margin: 0 20px 20px;
+    color: #666;
+    line-height: 1.6;
+}
+
