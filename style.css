@@ -283,6 +283,21 @@ padding-bottom: 10px;              px;
      margin: 10px;
 }
 
+
+.mid{
+background-color: #0D1B2A;
+
+}
+
+.mid h2{
+    color: #93C5FD;
+}
+.mid h1{
+    color:white;
+}
+.mid li{
+    color: #dfe1e4;
+}
 .footer{
     background:#0F172A;
     color:#fff;
