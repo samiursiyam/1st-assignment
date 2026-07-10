@@ -201,6 +201,288 @@
 
 
 
+<!-- Ai section -->
+
+    <div class="faq-container">
+
+        <!-- HEADER -->
+        <div class="faq-header">
+            <div class="ai-badge">
+                <i class="fas fa-brain"></i> AI-powered FAQ
+                <i class="fas fa-robot" style="margin-left:4px;"></i>
+            </div>
+            <h2>
+                <span class="ai-icon"><i class="fas fa-microchip"></i></span>
+                Frequently Asked <span style="color:#1a6aff;">Questions</span>
+            </h2>
+            <p class="subhead">
+                <i class="fas fa-sparkles"></i>
+                Curated by our AI assistant · Get instant answers to the most asked questions
+                <i class="fas fa-sparkles"></i>
+            </p>
+        </div>
+
+        <!-- SEARCH BAR -->
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Ask AI anything about the conference..." id="faqSearch" />
+            <span class="ai-chip">
+                <i class="fas fa-circle" style="font-size:0.4rem; color:#0e8b6f;"></i>
+                AI ready
+            </span>
+        </div>
+
+        <!-- FAQ LIST -->
+        <div class="faq-list" id="faqList">
+
+            <!-- ITEM 1 -->
+            <div class="faq-item active">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <div class="q-left">
+                        <span class="q-icon"><i class="fas fa-robot"></i></span>
+                        <span class="q-text">What makes this conference "AI-first"?</span>
+                    </div>
+                    <span class="q-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <span class="ans-tag"><i class="fas fa-lightbulb"></i> AI insight</span>
+                    <p>
+                        Our conference is <span class="highlight">AI-first</span> in three ways:
+                        <strong>1)</strong> All sessions are curated using an AI recommendation engine.
+                        <strong>2)</strong> We have a dedicated <span class="highlight">Generative AI</span> track.
+                        <strong>3)</strong> Our networking app uses AI to match you with the right people.
+                        Plus, every attendee gets access to our <span class="highlight">conference AI copilot</span> for personalized scheduling.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <div class="q-left">
+                        <span class="q-icon"><i class="fas fa-ticket"></i></span>
+                        <span class="q-text">How do I register and what are the pricing tiers?</span>
+                    </div>
+                    <span class="q-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <span class="ans-tag"><i class="fas fa-credit-card"></i> registration</span>
+                    <p>
+                        Registration is open via our <span class="highlight">AI-powered portal</span>. Pricing tiers:
+                        <br />
+                        <strong>🎟️ Early Bird</strong> — $299 (until March 15) <br />
+                        <strong>🎟️ Standard</strong> — $499 <br />
+                        <strong>🎟️ Premium</strong> — $799 (includes 1:1 AI mentorship sessions)
+                        <br /><br />
+                        Group discounts (5+ people) are auto-calculated by our pricing AI — just enter your team size.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <div class="q-left">
+                        <span class="q-icon"><i class="fas fa-sitemap"></i></span>
+                        <span class="q-text">Can I switch between tracks during the conference?</span>
+                    </div>
+                    <span class="q-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <span class="ans-tag"><i class="fas fa-arrows-left-right"></i> flexibility</span>
+                    <p>
+                        <span class="highlight">Absolutely.</span> The conference is designed to be
+                        <strong>track-fluid</strong>. You can move between
+                        any of the 5 tracks — Digital Frontier, Sustainable Growth, Future of Work,
+                        Product & Scale, and Resilient Systems — at any time.
+                        <br /><br />
+                        Our <span class="highlight">AI scheduler</span> will even recommend the best
+                        sessions for you based on your interests and live attendance patterns.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <div class="q-left">
+                        <span class="q-icon"><i class="fas fa-video"></i></span>
+                        <span class="q-text">Will sessions be recorded and available on-demand?</span>
+                    </div>
+                    <span class="q-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <span class="ans-tag"><i class="fas fa-play"></i> on-demand</span>
+                    <p>
+                        <span class="highlight">Yes.</span> All main-stage sessions and selected track
+                        talks will be <strong>recorded</strong> and available
+                        within 48 hours after the event.
+                        <br /><br />
+                        Premium ticket holders get <span class="highlight">AI-generated summaries</span>
+                        and <span class="highlight">transcripts</span> with key highlights for every session.
+                        On-demand access remains active for <strong>6 months</strong> after the conference.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 5 -->
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <div class="q-left">
+                        <span class="q-icon"><i class="fas fa-handshake"></i></span>
+                        <span class="q-text">Is there a networking platform or app?</span>
+                    </div>
+                    <span class="q-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <span class="ans-tag"><i class="fas fa-users"></i> networking</span>
+                    <p>
+                        <span class="highlight">Yes — and it's AI-powered!</span> Our conference app
+                        uses <strong>smart matching</strong> to connect you with
+                        attendees who share your professional interests, track preferences, and goals.
+                        <br /><br />
+                        Features include:
+                        <span class="highlight">🔹 1:1 meeting scheduler</span> ·
+                        <span class="highlight">🔹 AI icebreaker suggestions</span> ·
+                        <span class="highlight">🔹 Live Q&A with speakers</span>
+                        <br />
+                        Download links will be sent to all registered attendees 2 weeks before the event.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 6 -->
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <div class="q-left">
+                        <span class="q-icon"><i class="fas fa-shield-halved"></i></span>
+                        <span class="q-text">What safety and accessibility measures are in place?</span>
+                    </div>
+                    <span class="q-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <span class="ans-tag"><i class="fas fa-heart"></i> safety &amp; access</span>
+                    <p>
+                        We are committed to a <strong>safe and inclusive</strong> environment.
+                        <br /><br />
+                        ✅ <span class="highlight">Hybrid option</span> — attend virtually if you prefer.
+                        ✅ <span class="highlight">Live captioning</span> and <span class="highlight">ASL interpretation</span>
+                        for all main sessions.
+                        ✅ <span class="highlight">AI-powered crowd flow</span> monitoring to avoid congestion.
+                        ✅ <span class="highlight">Dedicated quiet rooms</span> and <span class="highlight">accessibility
+                        concierge</span> on-site.
+                        <br /><br />
+                        All venues are ADA-compliant. Contact our AI support bot for specific accommodation requests.
+                    </p>
+                </div>
+            </div>
+
+        </div><!-- /faq-list -->
+
+        <!-- FOOTER -->
+        <div class="faq-footer">
+            <div class="ai-confidence">
+                <i class="fas fa-robot" style="color:#1a6aff;"></i>
+                <span>AI confidence</span>
+                <div class="bar">
+                    <div class="fill"></div>
+                </div>
+                <span style="color:#1a6aff; font-weight:600;">94%</span>
+            </div>
+            <span class="dot-divider">|</span>
+            <span>
+                <i class="fas fa-sparkles" style="color:#f5a623;"></i>
+                Still have questions?
+                <a href="#"><i class="fas fa-comment-dots"></i> Ask AI</a>
+            </span>
+            <span class="dot-divider">|</span>
+            <span style="color:#6a84a8;">
+                <i class="fas fa-clock"></i> Updated <span id="updateTime">just now</span>
+            </span>
+        </div>
+
+    </div>
+
+    <script>
+        // ----- FAQ TOGGLE (accordion) -----
+        function toggleFaq(element) {
+            const item = element.closest('.faq-item');
+            const isActive = item.classList.contains('active');
+
+            // Optional: close others (uncomment for accordion style)
+            // document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+
+            if (isActive) {
+                item.classList.remove('active');
+            } else {
+                item.classList.add('active');
+            }
+        }
+
+        // ----- SEARCH / FILTER -----
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('faqSearch');
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            searchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase().trim();
+
+                faqItems.forEach(item => {
+                    const question = item.querySelector('.q-text')?.textContent?.toLowerCase() || '';
+                    const answer = item.querySelector('.faq-answer')?.textContent?.toLowerCase() || '';
+                    const match = question.includes(query) || answer.includes(query);
+
+                    if (query === '') {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = match ? 'block' : 'none';
+                    }
+                });
+            });
+
+            // update timestamp
+            const now = new Date();
+            const timeStr = now.toLocaleString('en-US', {
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+            });
+            document.getElementById('updateTime').textContent = timeStr;
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -238,3 +520,4 @@
 </body>
 
 </html>
+
