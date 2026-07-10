@@ -67,7 +67,7 @@ nav ul li a:hover{
 
 /*  header section  */
 header{
-    height: 700px;
+    height: 620px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +88,7 @@ header p{
     width: 496px;
    text-align: center;
    color: white;
-   padding-bottom: 200px;
+   padding-bottom: 150px;
    line-height: 1.8rem;
   
 }
@@ -130,11 +130,13 @@ header h1{
     margin-bottom: 30px;
 }
 
+
+
 /* Card */
 
 .percard{
-    width: 550px;
-    border: 1px solid #ddd;
+    width: 514px;
+   
     border-radius: 15px;
     overflow: hidden;
     background: #fff;
@@ -145,7 +147,7 @@ header h1{
 
 .percard img{
     width: 100%;
-    height: 270px;
+    height: 260px;
     object-fit: cover;
     display: block;
 }
@@ -169,7 +171,87 @@ header h1{
 
 .percard p{
     margin: 0 20px 20px;
-    color: #666;
+    color: #333333;
     line-height: 1.6;
 }
 
+
+.spot{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   
+
+}
+
+.spot-text{
+    padding: 20px;
+}
+
+
+.spot-box{
+    display: flex;
+  
+    margin-bottom: 50px;
+    
+}
+.common-box{
+    padding:25px;
+    margin: 2px;
+    border: 2px solid rgba(133, 139, 155, 0.336);
+    height: 444px;
+    width: 315px;
+    border-radius: 15px;
+ 
+}
+
+.common-box span{
+    color: #1D4ED8;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.common-box ul{
+    padding: 5px 0px 20px;
+}
+
+.common-box li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.8rem;
+    color: #333333;
+    font-weight: 200;
+   
+
+}     
+.common-box h2{
+    color: #888888;
+    font-size: 15px;
+    margin-bottom: 10px;
+} 
+.common-box h3{
+color: #888888;
+padding-bottom: 10px;              px;
+}
+
+.price-box-btn{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  padding: 15px 80px;
+  font-size:15px;
+  background-color:#2563EB;
+  color: #fff;
+  border-radius: 21px;
+  border: 2px solid #2563EB;
+    font-weight: 700;
+
+}
+
+.com-p{
+    background-color: #fff;
+    color: #2563EB;
+  
+
+}
